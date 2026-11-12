@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bicam-xai"
+version = "0.1.0"
+description = "Bidirectional class activation maps for Vision Transformers"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  {name = "Qin Su", email = "qin.su@uky.edu"},
+  {name = "Tie Luo", email = "t.luo@uky.edu"},
+]
+dependencies = [
+  "torch>=1.13",
+  "torchvision>=0.14",
+  "timm>=0.5.4",
+  "numpy>=1.23",
+  "Pillow>=9.0",
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Repository = "https://github.com/TrustAIoT/BiCAM-ViT"
+
+[project.optional-dependencies]
+viz = ["matplotlib>=3.6", "opencv-python>=4.7"]
+dev = ["pytest>=7", "ruff>=0.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"

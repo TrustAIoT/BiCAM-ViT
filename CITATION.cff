@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use BiCAM, please cite this work."
+title: "What Helps—and What Hurts: Bidirectional Explanations for Vision Transformers"
+type: software
+authors:
+  - family-names: Su
+    given-names: Qin
+  - family-names: Luo
+    given-names: Tie
+version: 0.1.0
+date-released: 2026-03-01
+repository-code: "https://github.com/TrustAIoT/BiCAM-ViT"
+preferred-citation:
+  type: conference-paper
+  title: "What Helps—and What Hurts: Bidirectional Explanations for Vision Transformers"
+  authors:
+    - family-names: Su
+      given-names: Qin
+    - family-names: Luo
+      given-names: Tie
+  conference:
+    name: "Pacific-Asia Conference on Knowledge Discovery and Data Mining"
+  collection-title: "Pacific-Asia Conference on Knowledge Discovery and Data Mining"
+  collection-type: proceedings
+  start: 510
+  end: 522
+  publisher:
+    name: Springer
+  year: 2026
