@@ -161,6 +161,8 @@ BiCAM/
 └── assets/           # Example input and publication figures
 ```
 
+#### Check out paper on [Springer](https://link.springer.com/chapter/10.1007/978-981-92-1947-6_41) or [arXiv](https://arxiv.org/abs/2603.01605)
+
 ## Reproducibility notes
 
 The runnable example uses the same direct 224 × 224 resize, `0.5`
